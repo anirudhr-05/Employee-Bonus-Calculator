@@ -12,7 +12,7 @@ def calculate_bonus(salary, performance_rating):
     bonus = salary * bonus_percentage
     return bonus
 print("Welcome to the Employee Bonus Calculator!")
-Salary = input("Enter the Employee's Name: ")
+Name = input("Enter the Employee's Name: ")
 Salary = float(input("Enter the Employee's salary: "))
 Performance_Rating = input("Enter the Employee's performance rating (in Caps) (A, B, C, or D): ").upper()
 bonus = calculate_bonus(Salary, Performance_Rating)
